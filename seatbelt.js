@@ -177,7 +177,8 @@
         }
 
         Option.prototype.take = function() {
-            this = None;
+            _value = null;
+            _isSome = false;
             return this;
         }
 
