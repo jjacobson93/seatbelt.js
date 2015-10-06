@@ -1,0 +1,23 @@
+{
+  "name": "seatbelt.js",
+  "version": "1.0.0",
+  "description": "A utility library based on Rust types and paradigms",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --require should --bail tests/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jjacobson93/seatbelt.js.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jjacobson93/seatbelt.js/issues"
+  },
+  "homepage": "https://github.com/jjacobson93/seatbelt.js#readme",
+  "devDependencies": {
+    "mocha": "^2.3.2",
+    "should": "^7.1.0"
+  }
+}
